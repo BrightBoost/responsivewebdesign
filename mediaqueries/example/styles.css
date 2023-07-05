@@ -1,0 +1,33 @@
+/* Default styles */
+img {
+    width: 100%;
+}
+
+.outer {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+  /* Media queries and breakpoints */
+  @media (max-width: 767px) {
+    /* Styles for small screens (e.g., smartphones) */
+    .container {
+        max-width: 100%;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    /* Styles for medium screens (e.g., tablets) */
+    .container {
+        max-width: 50%;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    /* Styles for large screens (e.g., desktops) */
+    .container {
+        max-width: 33%;
+    }
+    
+  }
+  
