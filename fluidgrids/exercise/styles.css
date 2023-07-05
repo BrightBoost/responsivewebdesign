@@ -1,0 +1,17 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.box {
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.box:hover {
+  background-color: red;
+}

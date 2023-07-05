@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  h1 {
+    font-size: 30px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  
+  /* Media queries and breakpoints */
+  @media (max-width: 767px) {
+    /* Styles for small screens (e.g., smartphones) */
+    h1 {
+      font-size: 20px;
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  
+    body {
+      background-color: #E3F2FD;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    /* Styles for medium screens (e.g., tablets) */
+    h1 {
+      font-size: 24px;
+    }
+  
+    p {
+      font-size: 16px;
+    }
+  
+    body {
+      background-color: #DCEDC8;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    /* Styles for large screens (e.g., desktops) */
+    h1 {
+      font-size: 30px;
+    }
+  
+    p {
+      font-size: 18px;
+    }
+  
+    body {
+      background-color: #FFF9C4;
+    }
+  }
+  
